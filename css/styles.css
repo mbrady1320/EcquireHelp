@@ -1,0 +1,39 @@
+
+.header {
+  background-image: url('../img/intro-image.jpg');
+  background-attachment: fixed;
+  height: 600px;
+  margin-top: -2%;
+}
+
+.title-search {
+	text-align: center;
+  padding-top: 15%;
+}
+
+#title {
+  color: white;
+  font-size: 3em;
+  font-weight: 200;
+}
+
+.topic-group {
+	margin: 1%;
+  text-align: center;
+}
+
+#topic {
+	margin: .5%;
+	padding: 1.5%;
+  width: 20%;
+  background-color: #e8f1f3;
+}
+
+#contact {
+	text-align: center;
+}
+
+.pure-group {
+  margin: 1%;
+}
+
