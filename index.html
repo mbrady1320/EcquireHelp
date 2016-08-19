@@ -13,18 +13,21 @@
     <link rel="stylesheet" href="css/styles.css">
     
     <!-- Typography -->
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu|Karla' rel='stylesheet' type='text/css'>
 
   </head>
 
   <body>
-    
+
     <div class="header">
+    </div>
+    
+    <div class="hero-header">
       <div class="title-search">
         <h1 id="title">Ecquire Help</h1>
+        <h2 id="subtitle">Relax,everything you need to know about Ecquire is all here.</h2>
         <form class="pure-form">
           <input type="text" class="pure-input-rounded">
-            <button type="submit" class="pure-button pure-button-primary">Search</button>
+          <button type="submit" class="pure-button pure-button-primary">Search</button>
         </form>
       </div>
   	</div>
@@ -33,55 +36,57 @@
     <div class="pure-g topic-group">
       
       <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" id="topic">
-        <h2>Getting Started</h2>
+        <a href="gettingstarted.html"><h2 class="topic-title">Getting Started</h2></a>
           <p>Learn the basics of how to get up and running</p>
       </div>
       
       <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" id="topic">
-        <h2>Account</h2> 
+        <a href="account.html"><h2 class="topic-title">Account</h2></a> 
           <p>How to manage billing, subscriptions and everything else</p>
       </div>
 
       <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" id="topic">
-        <h2>Salesforce</h2>
+        <a href="salesforce.html"><h2 class="topic-title">Salesforce</h2></a>
           <p>Check out all the neat things you can do with Salesforce</p>
       </div>
 
       <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" id="topic">
-        <h2>Google Docs</h2>
+        <a href="googledocs.html"><h2 class="topic-title">Google Docs</h2></a>
          <p>Turning your Google Docs into a CRM is easy!</p>
       </div>
 
     </div>
 
 
-    <div class="pure-g topic-group">
+    <div class="pure-g topic-group topic-group-2">
       
       <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" id="topic">
-        <h2>Pipedrive</h2>
+        <a href="pipedrive.html"><h2 class="topic-title">Pipedrive</h2></a>
           <p>Ecquire meet Pipedrive</p>
       </div>
 
       <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" id="topic">
-        <h2>Highrise</h2>
+        <a href="highrise.html"><h2 class="topic-title">Highrise</h2></a>
           <p>Everything there is to know about Ecquire and Highrise</p> 
       </div>
 
       <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" id="topic">
-        <h2>Mailchimp</h2>
+        <a href="mailchimp.html"><h2 class="topic-title">Mailchimp</h2></a>
           <p>Build your mailing list with just one click</p>
       </div>
 
       <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4" id="topic">
-        <h2>Troubleshooting</h2>
+        <a href="troubleshooting.html"><h2 class="topic-title">Troubleshooting</h2></a>
           <p>Uh oh. Common issues and how to fix them.</p>
       </div>
 
     </div>
 
-    <form class="pure-form" id="contact">
-      <h2>Contact our support team</h2>
-        <p>Didn't find what you're looking for? Contact our support team!</p>
+    <div class="form" id="contact">
+      <h2 class="topic-title contact-title">Contact our support team</h2>
+        <p class="contact-title">Need more answers? Send us an email!</p>
+        
+        <form class="pure-form" id="contact-group">
           <fieldset class="pure-group">
             <input type="text" class="pure-input-1-2" placeholder="Name">
           </fieldset>
@@ -93,11 +98,13 @@
           </fieldset>
 
           <fieldset class="pure-group">
-            <textarea class="pure-input-1-2" placeholder="Enter comments here"></textarea>
+            <textarea class="pure-input-1-2 form-control" rows="5" placeholder="Enter comments here"></textarea>
           </fieldset>
+        </form>
 
-          <button type="submit" class="pure-button pure-input-1-2 pure-button-primary">Sign in</button>
-    </form>
+        <button type="submit" class="pure-button pure-input-1-2 pure-button-primary">Submit</button>
+        
+    </div>
 
    
 
