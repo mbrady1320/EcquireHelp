@@ -1,0 +1,691 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
+
+    <title>Ecquire Help</title>
+
+<!-- Custom styles -->
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">.
+    <script src="https://use.fontawesome.com/72ad68d257.js"></script>
+    <link rel="stylesheet" href="css/styles.css">    
+  </head>
+
+  <body>
+    <div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+    <!-- Hamburger icon -->
+      <span></span>
+    </a>
+
+      <div id="menu">
+        <div class="pure-menu">
+          <a class="pure-menu-heading" href="index.html">Ecquire Help</a>
+          
+          <ul class="pure-menu-list">
+            <a class="pure-menu-heading" href="#salesforce">SALESFORCE</a>
+            <li class="pure-menu-item"><a href="#connect-salesforce" class="pure-menu-link">How to connect<br>Ecquire To Salesforce</a></li>
+            <li class="pure-menu-item"><a href="#api-access" class="pure-menu-link">How to tnable<br>API access</a></li>
+            <li class="pure-menu-item"><a href="#salesforce-objects" class="pure-menu-link">Which Salesforce<br>objects does<br>Ecquire support?</a></li>
+            <li class="pure-menu-item"><a href="#salesforce-editions" class="pure-menu-link">Which editions of<br>Salesforce does<br>Ecquire Support?</a></li>
+            <li class="pure-menu-item"><a href="#salesforce-linkedin" class="pure-menu-link">LinkedIn</a></li>
+            <li class="pure-menu-item"><a href="#salesforce-google" class="pure-menu-link">Google</a></li>
+            <li class="pure-menu-item"><a href="#salesforce-facebook" class="pure-menu-link">Facebook</a></li>
+            <li class="pure-menu-item"><a href="#salesforce-twitter" class="pure-menu-link">Twitter</a></li>
+            <li class="pure-menu-item"><a href="#salesforce-hootsuite" class="pure-menu-link">Hootsuite</a></li>
+            <li class="pure-menu-item"><a href="#salesforce-angellist" class="pure-menu-link">Angellist</a></li>
+            <li class="pure-menu-item"><a href="#salesforce-crunchbase" class="pure-menu-link">Crunchbase</a></li>
+            <li class="pure-menu-item"><a href="#existing-accounts" class="pure-menu-link">Add a new contact<br>to an existing account</a></li>
+            <li class="pure-menu-item"><a href="#search" class="pure-menu-link">Search for existing<br>leads/contacts<br>/accounts</a></li>
+            <li class="pure-menu-item"><a href="#update-exist" class="pure-menu-link">Update an<br>existing profile</a></li>
+            <li class="pure-menu-item"><a href="#custom-fields" class="pure-menu-link">Custom fields and<br>the customize fields<br>button</a></li>      
+            <li class="pure-menu-item"><a href="#more-fields" class="pure-menu-link">More fields</a></li>
+            <a class="pure-menu-heading" href="index.html">MORE ARTICLES</a>
+            <li class="pure-menu-item"><a href="gettingstarted.html" class="pure-menu-link">Getting Started</a></li>
+            <li class="pure-menu-item"><a href="account.html" class="pure-menu-link">Account</a></li>
+            <li class="pure-menu-item"><a href="googledocs.html" class="pure-menu-link">Google Docs</a></li>
+            <li class="pure-menu-item"><a href="pipedrive.html" class="pure-menu-link">Pipedrive</a></li>
+            <li class="pure-menu-item"><a href="highrise.html" class="pure-menu-link">Highrise</a></li>
+            <li class="pure-menu-item"><a href="mailchimp.html" class="pure-menu-link">Mailchimp</a></li>
+            <li class="pure-menu-item"><a href="troubleshooting.html" class="pure-menu-link">Troubleshooting</a></li>
+          </ul>
+        </div><!--/pure-menu-->
+      </div><!--/menu-->
+
+      <div class="header">
+        <h1 id="salesforce">Salesforce</h1>
+      </div>
+
+    <!--CONNECT TO SALESFORCE-->
+      <div class="content"> 
+        <div class="header">
+          <h2 id="connect-salesforce">How to connect Ecquire to salesforce</h2>
+        </div>  
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <p>If you have just downloaded Ecquire, it would have prompted you to connect to a CRM. You can also connect to additional CRMs. Connecting to Salesforce is a fairly easy process.</p>
+            <p>In the Settings screen, click on CRM Services.</p>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/connectsalesforce.png" class="pure-img" alt="Connect To Salesforce">
+          </div>
+        </div><!--/column-row-->
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <p>Click on the checkbox next to Salesforce. Follow the prompts to log in. If you are already logged into Salesforce in another window, Ecquire will connect automatically.</p>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/connectsalesforce2.png" class="pure-img" alt="Connect To Salesforce">
+          </div>
+        </div><!--/column-row-->
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <p>Congratulations! You're connected to Salesforce!</p>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/connectsalesforce3.png" class="pure-img" alt="Connect To Salesforce">
+          </div>
+        </div><!--/column-row-->
+      </div><!--/content-->
+    <!--/CONNECT TO SALESFORCE-->
+
+    <!--ENABLE API ACCESS-->
+      <div class="content"> 
+        <div class="header">
+          <h2 id="api-access">How to enable API access</h2>
+        </div> 
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <p>API access must be enabled for your user in Salesforce for Ecquire to connect to your Salesforce org. Your Salesforce administrator controls your profile and permissions. For Ecquire to connect to your Salesforce, your user must be granted the “API Enabled” permission. To edit your profile, your admin will need to go to Setup | Manage Users | Profiles in the Salesforce user interface to grant the “API Enabled” permission.</p>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/smile--shaddow.png" class="pure-img" alt="Repete Smiling">
+          </div>
+        </div><!--/column-row-->
+      </div><!--/content-->
+    <!--/ENABLE API ACCESS-->
+
+    <!--SALESFORCE OBJECTS-->
+      <div class="content"> 
+        <div class="header">
+          <h2 id="salesforce-objects">Which Salesforce objects does Ecquire support?</h2>
+        </div> 
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <p>Currently, Ecquire supports three of the standard Salesforce objects:</p>
+            <p>Leads<br>Contacts<br>Accounts</p>
+            <p>Ecquire does not currently support Oppurtunities or any other objects. If you require Ecquire to work with Oppurtunities or another Salesforce object, please let us know!</p>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/salesforce-objects.PNG" class="pure-img" alt+="Leads, Contacts, Accounts">
+          </div>
+        </div><!--/column-row-->
+      </div><!--/content-->
+    <!--/SALESFORCE OBJECTS-->
+
+    <!--SALESFORCE EDITIONS-->
+      <div class="content"> 
+        <div class="header">
+          <h2 id="salesforce-editions">Which editions of Salesforce does Ecquire support?</h2>
+        </div> 
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <p>Ecquire works with any edition of Salesforce where the API feature is enabled. The API feature is enabled by default for:</p>
+            <p>Performance<br>Unlimited<br>Enterprise<br>Developer</p>
+            <p>Some Professional Edition organizations may also have the API enabled. If you cannot access the API feature, contact salesforce.com.</p>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/salesforce-editions.PNG" class="pure-img" alt="Performance, Unlimited, Enterprise, Developer.">
+          </div>
+        </div><!--/column-row-->
+      </div><!--/content-->
+    <!--/SALESFORCE EDITIONS-->
+
+
+    <!--LINKEDIN-->
+      <div class="content">
+        <div class="header">
+          <h2 id="salesforce-linkedin">LinkedIn</h2>
+          <h4 class="subsection">In This Section:</h4>
+          <p><a href="#salesforce-import-linkedin" class="subsection">How to import LinkedIn profiles</a></p>
+          <p><a href="#salesforce-linkedin-messages" class="subsection">How to save LinkedIn messages</a></p>
+        </div>
+    <!--How to import LinkedIn profiles-->
+      <h3 id="salesforce-import-linkedin">How to import LinkedIn profiles</h3>
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <ul class="instructions"> 
+              <li>Ecquire turns blue when it detects data it can capture.</li>
+              <li>The Ecquire drawer pops open when you click the blue icon. It will show you the data it detects for capture. Click your contact's information.</li>
+              <li>Ecquire will ask if you want to create this profile into Salesforce.</li>
+              <li>You can edit the information, choose whether to import as a lead, contact or contact.</li>
+              <li>Click Create in Salesforce when you are ready to import.</li>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/importprofile6.gif" class="pure-img" alt="Importing a Profile from LinkedIn">
+          </div>
+        </div><!--/column-row-->
+    <!--How to save LinkedIn messages-->
+      <h3 id="salesforce-linkedin-messages">How to save linkedIn messages</h3>
+        <div class="announcement">
+          <p><i class="fa fa-exclamation big-exclamation" aria-hidden="true"></i>11-14-2016: Improvements have been made to Auto-Submit! We will still continue to work to bring this feature If you notice any major issues, please let us know ASAP. In the Ecquire drawer, submit a bug report by clicking the question mark at the bottom right or click the help beacon at the bottom right of this screen.</p>
+        </div><!--/announcement--> 
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <p>You can now save messages you write from the LinkedIn messaging box automatically. Make sure the auto submit checkbox is checked in the Ecquire drawer.</p>
+          </div>   
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/auto-submit-checkbox.png" class="pure-img" alt="Auto Submit Checkbox">
+          </div>
+        </div><!--/column-row-->
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <p>Click on "Send a message." Type up your message and click "Send." Ecquire will automatically update your records in Salesforce.
+              Watch for the confirmation box at the bottome right.</p>
+          </div>   
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/auto-submit-fixed1.gif" class="pure-img" alt="Auto Submit Checkbox">
+          </div>
+        </div><!--/column-row-->
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <p>Recording your contact's reply will still need to be manually submitted.  Click the messaging icon in LinkedIn.</p>
+          </div>   
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/autosubmit-temp-fix1.png" class="pure-img" "Manually Submit Messages">
+          </div>
+        </div><!--/column-row-->
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <p>Click the Ecquire button and select the message you’d like to capture.</p>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/autosubmit-temp-fix2.gif" class="pure-img">
+          </div>
+        </div><!--/column-row-->
+      </div><!--/content--> 
+    <!--/LINKEDIN-->
+
+
+    <!--GOOGLE-->
+      <div class="content">
+        <div class="header">
+          <h2 id="salesforce-google">Google</h2>
+          <h4 class="subsection">In This Section:</h4>
+          <p><a href="#google-contacts" class="subsection">How to sync a Google contact to Salesforce</a></p>
+          <p><a href="#gmail-salesforce" class="subsection">How to save a Gmail to Salesforce</a></p>
+        </div> 
+
+    <!--How to sync Google contacts-->
+        <div class="column-row">
+          <h3 id="google-contacts">How to sync a Google contact to Salesforce</h3>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <p>Currently, Ecquire is integrated with the older version of Google contacts. You can navigate to the older verson by clicking this <a href="https://www.google.com/contacts/u/0/?cplus=0#contacts">link</a>.</p>
+            <ul class="instructions">
+              <li>You can select the contact you'd like to upload or just click the Ecquire button from the main screen.</li>
+              <li>Review and add any extra details.</li>
+              <li>Click the “Submit to Salesforce” button to save your Google Contact to Salesforce.</li>
+            </ul>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/googlesync.gif" class="pure-img" alt="Importing a Google Contact">
+          </div>
+        </div><!--/column-row-->
+    
+    <!--How to save a Gmail to Salesforce-->
+        <div class="column-row">
+          <h3 id="gmail-salesforce">How to save a Gmail to Salesforce</h3>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <p>You can save emails you have received from your contact from gmail to Salesforce.</p>
+            <ul class="instructions">
+              <li>Find the sent or received email that you want to save.</li>
+              <li>Click the Ecquire button.</li>
+              <li>Review and add any extra details that you would like.</li>
+              <li>Click the “Submit to Salesforce” button to save your Gmail to Salesforce.</li>
+            </ul>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/gmailtosalesforce.gif" class="pure-img" "Manually Submitting A Gmail">
+          </div>
+        </div><!--/column-row-->
+      </div><!--/content-->
+    <!--/GOOGLE-->
+
+    <!--FACEBOOK-->
+      <div class="content">
+        <div class="header">
+          <h2 id="salesforce-facebook">Facebook</h2>
+        </div>
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <p>It’s easy to add a contact to Salesforce directly from Facebook. Here's How:</p>
+            <ul class="instructions">
+              <li>Visit your Facebook contact’s profile.</li>
+              <li>Click on “About.”</li>
+              <li>Click the Ecquire button.</li>
+              <li>Review and add any extra details that you would like to record.</li>
+              <li>Click the “Submit to Salesforce” button.</li>
+            </ul>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/facebook-salesforce.gif" class="pure-img" alt="Import From Facebook To Salesforce">
+          </div>
+        </div><!--/column-row-->
+      </div><!--/content-->
+    <!--/FACEBOOK-->
+
+    <!--TWITTER-->
+      <div class="content">
+        <div class="header">
+          <h2 id="salesforce-twitter">Twitter</h2>
+        </div>
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <p>Need to add a contact from Twitter? Here's How:</p>
+            <ul class="instructions">
+              <li>Visit your contact's Twitter profile.</li>
+              <li>Click the blue Ecquire button.</li>
+              <li>Review the information in the Ecquire drawer add required fields and make any changes you would like. (Ensure all required fields are included).</li>
+              <li>Click the “Submit to Salesforce.”</li>
+            </ul>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/twitter-salesforce.gif" class="pure-img" alt="Import from Twitter to Salesforce">
+          </div>
+        </div><!--/column-row-->
+      </div><!--/content-->
+    <!--/TWITTER-->
+
+    <!--HOOTSUITE-->
+      <div class="content">
+        <div class="header">
+          <h2 id="salesforce-hootsuite">Hootsuite</h2>
+        </div>
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <p>Need to add a contact from Twitter? Here's How:</p>
+            <ul class="instructions">
+              <li>Visit your contact's Twitter profile.</li>
+              <li>Click the blue Ecquire button.</li>
+              <li>Review the information in the Ecquire drawer add required fields and make any changes you would like. (Ensure all required fields are included).</li>
+              <li>Click the “Submit to Salesforce.”</li>
+            </ul>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/hootsuite-salesforce.gif" class="pure-img" alt="Import from Hootsuite to Salesforce">
+          </div>
+        </div><!--/column-row-->
+      </div><!--/content-->
+    <!--/HOOTSUITE-->
+
+    <!--ANGELLIST-->
+      <div class="content">
+        <div class="header">
+          <h2 id="salesforce-angellist">Angellist</h2>
+        </div>
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <p>Yes! You can import contacts from Angellist</p>
+            <ul class="instructions">
+              <li>Visit your contact's page.</li>
+              <li>Click the blue Ecquire button.</li>
+              <li>Review the information in the Ecquire drawer add required fields and make any changes you would like. (Ensure all required fields are included).</li>
+              <li>Click the “Submit to Salesforce.”</li>
+            </ul>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/angellist-salesforce.gif" class="pure-img" alt="Import from Angellist to Salesforce">
+          </div>
+        </div><!--/column-row-->
+      </div><!--/content-->
+    <!--/ANGELLIST-->
+
+    <!--CRUNCHBASE-->
+      <div class="content">
+        <div class="header">
+          <h2 id="salesforce-crunchbase">Crunchbase</h2>
+        </div>
+        <div class="column-row">
+          <h3 id="salesforce-crunchbase">Crunchbase</h3>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <p>Here's how to import a profile from Crunchbase:</p>
+            <ul class="instructions">
+              <li>Visit your contact's page.</li>
+              <li>Click the blue Ecquire button.</li>
+              <li>Review the information in the Ecquire drawer add required fields and make any changes you would like. (Ensure all required fields are included).</li>
+              <li>Click the “Submit to Salesforce.”</li>
+            </ul>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/crunchbase-salesforce.gif" class="pure-img" alt="Import from Crunchbase to Salesforce">
+          </div>
+        </div><!--/column-row-->
+      </div><!--/content-->
+    <!--/CRUNCHBASE-->
+
+    <!--ADDING A CONTACT TO AN EXISTING ACCOUNT-->
+      <div class="content">
+        <div class="header">
+          <h2 id="existing-accounts">Adding a contact to an existing account</h2>
+        </div>
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <p>To add a new contact to an existing account follow these steps:</p>
+            <ul class="instructions">
+              <li>After clicking the Ecquire button, select the profile title you'd like to capture.</li>
+              <li>Type the name o fthe account you'd like to add your contact to.  After 3 letters it will appear and you can select it."</li>
+              <li>Click the "Add New Contact To (Account Name)" button.  Wait for success screen.</li>
+            </ul> 
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/addContact-existingAccount.gif" class="pure-img" alt="Adding a contact to an existing account">
+          </div>
+        </div><!--/column-row-->
+      </div><!--/content-->
+    <!--/ADDING A CONTACT TO AN EXISTING ACCOUNT-->
+
+    <!--SEARCH FOR EXISTING LEADS/CONTACTS/ACCOUNTS-->
+      <div class="content">
+        <div class="header">
+          <h2 id="search">Search for existing Leads/Contacts/Accounts</h2>
+        </div>
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <p>Click the Ecquire icon (does not need to be blue)</p>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/searchsalesforce1.png" class="pure-img" alt="Search For Existing Leads/Contacts/Accounts">
+          </div>
+        </div><!--/column-row-->
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <p>Begin Typing – Ecquire will automatically begin finding matches</p>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/searchsalesforce2.png" class="pure-img" alt="Search For Existing Leads/Contacts/Accounts">
+          </div>
+        </div><!--/column-row-->
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <p>Click the match you want – You can see if it is a Contact/Account/Lead on the right side of the Ecquire window</p>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/searchsalesforce3.png" class="pure-img" alt="Search For Existing Leads/Contacts/Accounts">
+          </div>
+        </div><!--/column-row-->
+      </div><!--/content-->
+    <!--/SEARCH FOR EXISTING LEADS/CONTACTS/ACCOUNTS-->
+
+    <!--UPDATE AN EXISTING PROFILE-->
+      <div class="content">
+        <div class="header">
+          <h2 id="update-exist">Update an existing profile</h2>
+        </div>
+        <div class="column-row">
+          <p><strong><span id="blue">Blue</span> means new!</strong><br> New data is blue. Existing data is black.</p>
+          <div class="pure-u-1 pure-u-md-1-2">
+            <p>When you capture a new profile and add it to Salesforce it will appear in the Ecquire drawer as shown in the image. The data is new to Salesforce so the text is blue.</p>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/update-existing1.png" class="pure-img" alt="Update An Existing Profile">
+          </div>
+        </div><!--/column-row-->
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <p>You can change or update the information on your Salesforce database by searching for that profile in the Ecquire drawer or returning to that profile and clicking the Ecquire button. Select the profile to be edited from the list.</p>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/update-existing2.png" class="pure-img" alt="Update An Existing Profile">
+          </div>
+        </div><!--/column-row-->
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <p>Ecquire detects whether the existing data is a Lead, Contact or Account.</p>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/update-existing3.png" class="pure-img" alt="Update An Existing Profile">
+          </div>
+        </div><!--/column-row-->
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <p>Because the data is already in Salesforce, it shows up black in the drawer.</p>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/update-existing4.png" class="pure-img" alt="Update An Existing Profile">
+          </div>
+        </div><!--/column-row-->
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <p>Copy and paste or type the new data into the appropriate fields. As you type to replace the old data, the text will appear blue. Click “Update in Salesforce” when finished.</p>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/update-existing5.png" class="pure-img" alt="Update An Existing Profile">
+          </div>
+        </div><!--/column-row-->
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <p>Sweet Success!!! Ecquire's success screen confirms you data has been updated.</p>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/update-existing6.png" class="pure-img" alt="Update An Existing Profile">
+          </div>
+        </div><!--/column-row-->
+      </div><!--/content-->
+    <!--/UPDATE AN EXISTING PROFILE-->
+
+    <!--CUSTOM FIELDS AND THE CUSTOMIZE FIELDS BUTTON-->
+      <div class="content">
+        <div class="header">
+          <h2 id="custom-fields">Custom Fields and the Customize Fields button</h2>
+        </div>
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <p>The customize fields button is only available for Salesforce users.</p>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/custom-fields1.PNG" class="pure-img" alt="Custom Fields And The Customize Fields Button">
+          </div>
+        </div><!--/column-row-->
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <p>In this screen, you can add, remove or rearrange the order of your fields.</p>
+            <p>But, what if you want to add a custom field from Salesforce?</p>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/custom-fields2.PNG" class="pure-img" alt="Custom Fields And The Customize Fields Button">
+          </div>
+        </div><!--/column-row-->
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <p>Salesforce has a great help section dedicated to creating custom fields. When you create a custom field on Salesforce, it might take 24 hours for it to show up in the Ecquire drawer.</p>
+            <p><a href="https://help.salesforce.com/apex/HTViewHelpDoc?id=adding_fields.htm&language=en_US">Click this link to go to the Salesforce help page</a></p>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/custom-fields3.gif" class="pure-img" alt="Custom Fields And The Customize Fields Button">
+          </div>
+        </div><!--/column-row-->
+      </div><!--/content-->
+    <!--/CUSTOM FIELDS AND THE CUSTOMIZE FIELDS BUTTON-->
+
+    <!--MORE FIELDS-->
+      <div class="content">
+        <div class="header">
+          <h2 id="more-fields">More Fields</h2>
+        </div>
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <p>When importing a contact/lead/account, you have to option to add more information by adding More Fields.</p>
+            <ul class="instructions">
+              <li>Select your contact/lead/account to upload.</li>
+              <li>Towards the bottom of the drawer, click More Fields. This will expand the drawer, allowing you to enter more detailed information.</li>
+              <li>You can save specific fields to layout through Customize Fields button mentioned in the section above.</li>
+            </ul> 
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2"> 
+            <img src="img/salesforce/more-fields.gif" class="pure-img" alt="more-fields">
+          </div>
+        </div><!--/column-row-->
+      </div><!--/content-->
+    <!--/MORE FIELDS-->
+
+    <!--HELP SCOUT BEACON-->
+      <div id ="hs-beacon">
+        <div data-reactid-hs=".0">
+          <iframe style="background:transparent;border:none;bottom:12px;height:80px;position:fixed;right:18px;top:auto;width:80px;z-index:1050;" data-reactid-hs=".0.0">
+            <html>
+              <head></head>
+              <body>
+                <div data-reactid-hs=".1">
+                  <link type="text/css" rel="stylesheet" href="https://djtflbt20bdde.cloudfront.net/css/styles.c52ea201.css" data-reactid-hs=".1.0">
+                  <style data-reactid-hs=".1.1:0">.widget-trigger, .btn, .double-bounce1, .double-bounce2, .email-icon { background-color: #32a8d9; } .search-results, a { color: #32a8d9; } .btn:hover, .btn:focus { background-color: #1e94c5; } .btn:disabled, .btn:disabled:hover, .btn.disabled, .btn.disabled:hover, .btn[type=disabled], .btn[type=disabled]:hover { background-color: #46bced; }</style>
+                  <button class="widget-trigger widget-trigger__bouy" style="display:none;cursor:pointer;" data-reactid-hs=".1.1:1">Help</button>
+                </div>
+              </body>
+            </html>
+          </iframe>
+          <iframe style="border: none; bottom: 89px; height: 0px; position: fixed; right: 15px; top: auto; width: 450px; z-index: 1050;" data-reactid-hs=".0.1">
+            <html>
+              <head>
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <meta name="author" content="Help Scout"><base href="//docs.helpscout.net/">
+              </head>
+              <body>
+                <div data-reactid-hs=".2">
+                  <link type="text/css" rel="stylesheet" href="https://djtflbt20bdde.cloudfront.net/css/styles.c52ea201.css" data-reactid-hs=".2.0">
+                  <style data-reactid-hs=".2.1:0">
+                    .widget-trigger, .btn, .double-bounce1, .double-bounce2, .email-icon { background-color: #32a8d9; } .search-results, a { color: #32a8d9; } .btn:hover, .btn:focus { background-color: #1e94c5; } .btn:disabled, .btn:disabled:hover, .btn.disabled, .btn.disabled:hover, .btn[type=disabled], .btn[type=disabled]:hover { background-color: #46bced; }
+                  </style>
+                  <div class="main hidden" style="max-height: 283px; visibility: hidden;" tabindex="1" data-reactid-hs=".2.1:1">
+                    <div class="beacon-wrapper" data-reactid-hs=".2.1:1.0">
+                      <div class="modal-close modal-close__absolute hidden" style="height: auto;" data-reactid-hs=".2.1:1.0.0">
+                        <svg viewBox="0 0 26.1 26.1" xmlns="http://www.w3.org/2000/svg">
+                          <polygon points="26.1,1.7 24.4,0 13,11.3 1.7,0 0,1.7 11.3,13 0,24.4 1.7,26.1 13,14.8 24.4,26.1 26.1,24.4 14.8,13 ">
+                          </polygon>
+                        </svg>
+                      </div>
+                      <form class="search-form hidden" data-reactid-hs=".2.1:1.0.1">
+                        <div data-reactid-hs=".2.1:1.0.1.0">
+                          <input class="search-form--input" type="text" placeholder="What can we help you with?" autocomplete="off" offset="18" data-reactid-hs=".2.1:1.0.1.0.0">
+                        </div>
+                        <a href="#" class="search-form--submit" data-reactid-hs=".2.1:1.0.1.1">Submit</a>
+                        <div class="search-spinner hidden" data-reactid-hs=".2.1:1.0.1.2">
+                          <div class="double-bounce1" data-reactid-hs=".2.1:1.0.1.2.0">
+                          </div>
+                          <div class="double-bounce2" data-reactid-hs=".2.1:1.0.1.2.1">
+                          </div>
+                        </div>
+                      </form>
+                      <div class="content results hidden" style="max-height:400px;" data-reactid-hs=".2.1:1.0.2">
+                        <ol class="search-results" data-reactid-hs=".2.1:1.0.2.1"></ol>
+                        <p class="search-empty" data-reactid-hs=".2.1:1.0.2.2">
+                          <span data-reactid-hs=".2.1:1.0.2.2.0">No results found for</span>
+                          <span data-reactid-hs=".2.1:1.0.2.2.1"> "</span>
+                          <span data-reactid-hs=".2.1:1.0.2.2.2"></span>
+                          <span data-reactid-hs=".2.1:1.0.2.2.3">"</span>
+                        </p>
+                      </div>
+                      <div class="content article hidden" style="height:auto;max-height:none;min-height:none;" data-reactid-hs=".2.1:1.0.3">
+                        <h1 class="article--title" data-reactid-hs=".2.1:1.0.3.0"></h1>
+                        <a href="" class="article--open-original" title="Open the article in a new window" target="_blank" data-reactid-hs=".2.1:1.0.3.1"></a>
+                        <div class="article--content" data-reactid-hs=".2.1:1.0.3.2">
+                        </div>
+                      </div>
+                      <div class="contact" style="max-height: 277px;" data-reactid-hs=".2.1:1.0.4">
+                        <div class="" data-reactid-hs=".2.1:1.0.4.0">
+                          <div class="content" data-reactid-hs=".2.1:1.0.4.0.0">
+                            <form class="contact--form" data-reactid-hs=".2.1:1.0.4.0.0.0">
+                              <div class="form-control" data-reactid-hs=".2.1:1.0.4.0.0.0.2">
+                                <div data-reactid-hs=".2.1:1.0.4.0.0.0.2.0">
+                                  <input type="text" name="name" maxlength="60" placeholder="Your Name" offset="6" data-reactid-hs=".2.1:1.0.4.0.0.0.2.0.0">
+                                </div>
+                                <div class="form-control--error-message" data-reactid-hs=".2.1:1.0.4.0.0.0.2.1">Please enter your name</div>
+                              </div>
+                              <div class="form-control" data-reactid-hs=".2.1:1.0.4.0.0.0.3">
+                                <div data-reactid-hs=".2.1:1.0.4.0.0.0.3.0">
+                                  <input type="email" name="email" maxlength="100" placeholder="Email address" offset="6" data-reactid-hs=".2.1:1.0.4.0.0.0.3.0.0">
+                                </div>
+                                <div class="form-control--error-message" data-reactid-hs=".2.1:1.0.4.0.0.0.3.1">Please enter a valid email address</div>
+                              </div>
+                              <div class="form-control" data-reactid-hs=".2.1:1.0.4.0.0.0.4">
+                                <div data-reactid-hs=".2.1:1.0.4.0.0.0.4.0">
+                                  <input type="text" name="subject" maxlength="100" placeholder="Subject" autocomplete="off" offset="6" data-reactid-hs=".2.1:1.0.4.0.0.0.4.0.0">
+                                </div>
+                                <div class="form-control--error-message" data-reactid-hs=".2.1:1.0.4.0.0.0.4.1">Please enter a subject</div>
+                              </div>
+                              <div class="form-control" data-reactid-hs=".2.1:1.0.4.0.0.0.6">
+                                <div data-reactid-hs=".2.1:1.0.4.0.0.0.6.0">
+                                  <textarea class="contact--textarea" name="message" placeholder="How can we help you?" offset="6" data-reactid-hs=".2.1:1.0.4.0.0.0.6.0.0"></textarea>
+                                </div>
+                                <div class="form-control--error-message" data-reactid-hs=".2.1:1.0.4.0.0.0.6.1">Please enter a message</div>
+                              </div>
+                              <input type="text" id="phone" name="phone" data-reactid-hs=".2.1:1.0.4.0.0.0.7">
+                              <div class="contact--submit" data-reactid-hs=".2.1:1.0.4.0.0.0.8">
+                                <button type="submit" class="btn" data-reactid-hs=".2.1:1.0.4.0.0.0.8.0">Send</button>
+                                <input type="file" class="hidden" data-reactid-hs=".2.1:1.0.4.0.0.0.8.1">
+                                <div class="" data-reactid-hs=".2.1:1.0.4.0.0.0.8.2">
+                                  <a class="contact--attach contact--attach__remove" href="#" style="display:none;" title="Remove file" data-reactid-hs=".2.1:1.0.4.0.0.0.8.2.0">x</a>
+                                  <a class="contact--attach" href="#" data-reactid-hs=".2.1:1.0.4.0.0.0.8.2.1">Attach a file</a>
+                                  <div class="form-control--error-message" data-reactid-hs=".2.1:1.0.4.0.0.0.8.2.2">The maximum file size is 10mb</div>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                        <div class="hidden" data-reactid-hs=".2.1:1.0.4.1">
+                          <div class="content" data-reactid-hs=".2.1:1.0.4.1.0">
+                            <div class="contact-success" data-reactid-hs=".2.1:1.0.4.1.0.0">
+                              <div class="contact-success--icon" data-reactid-hs=".2.1:1.0.4.1.0.0.0">
+                                <object class="email-icon" type="image/svg+xml" data="https://djtflbt20bdde.cloudfront.net/img/email-sent.61f9143c.svg" data-reactid-hs=".2.1:1.0.4.1.0.0.0.0">Email icon</object>
+                              </div>
+                              <h1 class="contact-success--message" data-reactid-hs=".2.1:1.0.4.1.0.0.1">Message sent!</h1>
+                              <p class="contact-success--followup" data-reactid-hs=".2.1:1.0.4.1.0.0.2">Thanks for reaching out! Someone from our team will get back to you soon.</p>
+                            </div>
+                            <div class="contact-success--powered" data-reactid-hs=".2.1:1.0.4.1.0.1">
+                              <a href="http://www.helpscout.net/" target="_blank" data-reactid-hs=".2.1:1.0.4.1.0.1.0">Powered by Help Scout</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="search-actions hidden" data-reactid-hs=".2.1:1.0.5">
+                        <div class="search-actions--container" data-reactid-hs=".2.1:1.0.5.0">
+                          <a href="#" class="btn" data-reactid-hs=".2.1:1.0.5.0.0">Send a Message</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </body>
+            </html>
+          </iframe>
+        </div>
+      </div><!--/hs-beacon-->
+    <!--/HELP SCOUT BEACON-->
+
+      <footer>
+        <div class="pure-g">
+          <div class="pure-u-1 pure-u-md-1-3 footer-item"><a class="footer-item-link" href="http://ecquire.com/" >Ecquire Home</a></div>
+          <div class="pure-u-1 pure-u-md-1-3 footer-item"><a class="footer-item-link" href="http://dashboard.ecquire.com/admin">Dashboard</a></div>
+          <div class="pure-u-1 pure-u-md-1-3 footer-item"><a class="footer-item-link" href="http://ecquire.com/blog">Blogs</a></div>
+        </div>
+      </footer>
+
+    </div><!--/layout-->
+
+  <!--general ui for whole website-->
+  <script src="js/ui.js"></script>
+  
+  <!--help scout beacon-->
+  <script src="js/helpScoutBeacon.js"></script>
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  
+  <!--smooth scroll-->
+  <script src="js/smoothScroll.js"></script>
+  </body>
+</html>

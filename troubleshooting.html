@@ -1,83 +1,219 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-  	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  	
-  	<title>Ecquire Help</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
 
-    <!-- Custom styles for this template go here -->
+    <title>Ecquire Help</title>
+
+<!-- Custom styles -->
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
-    <script src="https://use.fontawesome.com/72ad68d257.js"></script>
     <link rel="stylesheet" href="css/styles.css">
     
-    
-    
-    <!-- Typography -->
-
   </head>
 
   <body>
+    <div id="layout">
+    <!-- Menu toggle -->
+      <a href="#menu" id="menuLink" class="menu-link">
+    <!-- Hamburger icon -->
+      <span></span>
+      </a>
+
+      <div id="menu">
+        <div class="pure-menu">
+          <a class="pure-menu-heading" href="index.html">ECQUIRE HELP</a>
+          <ul class="pure-menu-list">
+            <a class="pure-menu-heading" href="#troubleshooting">TROUBLESHOOTING</a>
+            <li class="pure-menu-item"><a href="#bug-report" class="pure-menu-link">How do I send<br>a Bug Report?</a></li>
+            <li class="pure-menu-item"><a href="#locked-out" class="pure-menu-link">Help! I'm locked<br>out of Ecquire!</a></li>
+            <li class="pure-menu-item"><a href="#locked-out-2" class="pure-menu-link">Ecquire will not<br>unlock properly!</a></li>
+            <li class="pure-menu-item"><a href="#ecquire-version-update" class="pure-menu-link">How do I ensure<br>I have the latest<br>Version Of Ecquire</a></li>
+            <li class="pure-menu-item"><a href="#chrome-version" class="pure-menu-link">How do I ensure<br>I am using<br>the latest version<br>of Chrome?</a></li>
+            <li class="pure-menu-item"><a href="#reset-crm" class="pure-menu-link">Ecquire is not<br>capturing data!</a></li>
+       
+            <a class="pure-menu-heading" href="index.html">MORE ARTICLES</a>
+            <li class="pure-menu-item"><a href="gettingstarted.html" class="pure-menu-link">Getting Started</a></li>
+            <li class="pure-menu-item"><a href="account.html" class="pure-menu-link">Account</a></li>
+            <li class="pure-menu-item"><a href="salesforce.html" class="pure-menu-link">Salesforce</a></li>
+            <li class="pure-menu-item"><a href="googledocs.html" class="pure-menu-link">Google Docs</a></li>
+            <li class="pure-menu-item"><a href="pipedrive.html" class="pure-menu-link">Pipedrive</a></li>
+            <li class="pure-menu-item"><a href="highrise.html" class="pure-menu-link">Highrise</a></li>
+            <li class="pure-menu-item"><a href="mailchimp.html" class="pure-menu-link">Mailchimp</a></li>
+            
+          </ul>
+        </div><!--/pure-menu-->
+      </div><!--/menu-->
+
     
-    <div class="hero-header">
-      <div class="title-search">
-        <h1 id="title">Ecquire Help</h1>
-        <h2 id="subtitle">Relax,everything you need to know about Ecquire is all here.</h2>
-      </div><!--/title-search-->
-  	</div><!--/hero-header-->
-
-
-    <div class="pure-g topic-group">
-      
-      <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-        <a href="gettingstarted.html"><h2 class="topic-title">Getting Started</h2></a>
-          <a href="gettingstarted.html"><p>Learn the basics of how to get up and running</p></a>
-      </div>
-      
-      <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-        <a href="account.html"><h2 class="topic-title">Account</h2></a> 
-          <a href="account.html"><p>How to manage billing, subscriptions and everything else</p></a>
+      <div class="header">
+        <h1 id="troubleshooting">Troubleshooting</h1>
       </div>
 
-      <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-        <a href="salesforce.html"><h2 class="topic-title">Salesforce</h2></a>
-          <a href="salesforce.html"><p>Check out all the neat things you can do with Salesforce</p></a>
-          <a href="salesforce.html#salesforce-linkedin-messages"><p id="mini-announce"><i class="fa fa-exclamation" aria-hidden="true"></i> Improvements have been made to Auto-Submit!</p></a>
-      </div>
+     <!--BUG REPORT-->
+      <div class="content">
+        <div class="header">
+          <h2 id="bug-report">How do I report a bug?</h2>
+        </div>
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <p>If Ecquire is acting funny or not performing properly, the best way to resolve the issue is to take the time to send in a Bug Report. This will allow us to take a look at some behind-the-scenes details to determine why Ecquire isn’t functioning correctly.Here’s how to submit a Bug Report:</p>
+            <ul class="instructions"> 
+              <li>Open the Ecquire drawer by clicking the Ecquire button.</li>
+              <li>Click the question mark on the bottom right.</li>
+              <li>Feel free to write extra notes. It could give us clues as to what your workflow is like that could have triggered the error.</li>
+            </ul>
+            <p>Even if there isn't an error, you can use the Bug Report form to ask our support team questions or send us a joke! We really like jokes.
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2">
+            <img src="img/troubleshooting/SubmitErrorReport.gif" class="pure-img" alt="Submitting An Error Report">
+          </div>
+        </div><!--/column-row-->
+      </div><!--/content-->
+  <!--/BUG REPORT-->
 
-      <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-        <a href="googledocs.html"><h2 class="topic-title">Google Docs</h2></a>
-         <a href="googledocs.html"><p>Turning your Google Docs into a CRM is easy!</p></a>
-      </div>
+  <!--LOCKED OUT-->
+      <div class="content">
+        <div class="header">
+          <h2 id="locked-out">Help! I'm locked out of Ecquire!</h2>
+        </div>
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <ul class="instructions"> 
+              <li>In your Settings screen, click on Licensing.</li>
+              <li>Enter your name and email.</li>
+            </ul>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2">
+            <img src="img/troubleshooting/unlock-ecquire.gif" class="pure-img" alt="Unlocking Ecquire">
+          </div>
+        </div><!--/column-row-->
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <ul class="instructions"> 
+              <li>Go to your inbox and click the unlock link in your email. The link will take you to your dashboard and also unlock your Ecquire extension.</li>
+            </ul>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2">
+            <img src="img/troubleshooting/unlock-link-email.PNG" class="pure-img" alt="Unlock Link Email">
+          </div>
+        </div><!--/column-row-->
+      </div><!--/content-->
+  <!--/LOCKED OUT-->
 
-    </div>
+  <!--LOCKED OUT 2-->
+      <div class="content">
+        <div class="header">
+          <h2 id="locked-out-2">Ecquire will not unlock properly!</h2>
+          <h3>Remove Ecquire, clear local storage, and reinstall Ecquire</h3>
+        </div>
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <p>Sometimes Ecquire gets confused as to what account it is supposed to be logged into. You can resolve this by following these steps.</p>
+            <ul class="instructions"> 
+              <li>Go to you chrome://settings/cookies</li>
+              <li>Search for all cookies and data pertaining to Ecquire.</li>
+              <li>Click Remove All Shown.</li>
+            </ul>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2">
+            <img src="img/troubleshooting/clearSettingAndCookies.png" class="pure-img" alt="Clear Settings And Cookies">
+          </div>
+        </div><!--/column-row-->
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <ul class="instructions"> 
+              <li>Uninstall Ecquire by right clicking the Ecquire button.</li>
+              <li>Select Remove from Chrome.</li>
+            </ul>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2">
+            <img src="img/troubleshooting/remove-ecquire.PNG" class="pure-img" alt="Remove Ecquire">
+          </div>
+        </div><!--/column-row-->
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <ul class="instructions"> 
+              <li>Install a fresh copy of Ecquire using the most recent unlock/download link sent to you via email. If you do not have one, click the Help Beacon at the bottom right of this page to send us an email.</li>
+            </ul>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2">
+            <img src="img/troubleshooting/install-via-unlock-link.gif" class="pure-img" alt="Install Via Unlock Link">
+          </div>
+        </div><!--/column-row-->
+      </div><!--/content-->
+  <!--/LOCKED OUT 2-->
 
+  <!--ECQUIRE VERSION-->
+      <div class="content">
+        <div class="header">
+          <h2 id="ecquire-version-update">How do I ensure I have the latest version of Ecquire</h2>
+        </div>
+        
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <p>Alternatively, you can also check which version of Ecquire you have from the drawer</p>
+            <ol class="instructions"> 
+              <li>Go to chrome://extensions.</li>
+              <li>Make sure Developer mode is checked.</li>
+              <li>Next to Ecquire is a series of numbers. This is the version that you have installed. If you need to update, click Update extensions now.</li>
+            </ol>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2">
+            <img src="img/troubleshooting/ecquire-version-update.PNG" class="pure-img" alt="Ecquire Version Update">
+          </div>
+        </div><!--/column-row-->
+      </div><!--/content-->
+  <!--/ECQUIRE VERSION-->
 
-    <div class="pure-g topic-group topic-group-2">
-      
-      <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-        <a href="pipedrive.html"><h2 class="topic-title">Pipedrive</h2></a>
-          <a href="pipedrive.html"><p>Ecquire meet Pipedrive</p></a>
-      </div>
+  <!--CHROME VERSION-->
+      <div class="content">
+        <div class="header">
+          <h2 id="chrome-version">How do I ensure I have the latest version of Chrome?</h2>
+        </div>
+        
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <p>Updates to software are a common occurrence. Here’s how to check to see if you are using the latest version of Chrome.</p>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2">
+            <img src="img/troubleshooting/chrome-version-1.gif" class="pure-img" alt="Check Chrome Version">
+          </div>
+        </div><!--/column-row-->
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <p>Or you can do this…</p>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2">
+            <img src="img/troubleshooting/chrome-version-2.gif" class="pure-img" alt="Check Chrome Version">
+          </div>
+        </div><!--/column-row-->
+      </div><!--/content-->
+  <!--/CHROME VERSION-->
 
-      <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-        <a href="highrise.html"><h2 class="topic-title">Highrise</h2></a>
-          <a href="highrise.html"><p>Everything there is to know about Ecquire and Highrise</p></a> 
-      </div>
+  <!--RESET CRM-->
+      <div class="content">
+        <div class="header">
+          <h2 id="reset-crm">Ecquire is not capturing data</h2>
+        </div>
+        
+        <div class="column-row">
+          <div class="pure-u-1 pure-u-md-1-2">
+            <p>Sometimes Ecquire gets confused. In this case, resetting your CRM connection might be the fix.</p>
+            <ul class="instructions">
+              <li>In the Ecquire drawer, click the Settings icon on the top right.</li>
+              <li>Click CRM Services.</li>
+              <li>Click Reset All Connections</li>
+            <p>Once reset, you can select your CRM to reestablish connection.</p>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2">
+            <img src="img/troubleshooting/reset-crm.gif" class="pure-img" alt="Reset CRM">
+          </div>
+        </div><!--/column-row-->
+      </div><!--/content-->
 
-      <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-        <a href="mailchimp.html"><h2 class="topic-title">Mailchimp</h2></a>
-          <a href="highrise.html"><p>Build your mailing list with just one click</p></a>
-      </div>
-
-      <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-        <a href="troubleshooting.html"><h2 class="topic-title">Troubleshooting</h2></a>
-          <a href="troubleshooting.html"><p>Uh oh. Common issues and how to fix them.</p></a>
-      </div>
-
-    </div>
 
       <div id ="hs-beacon">
         <div data-reactid-hs=".0">
@@ -211,17 +347,26 @@
         </div>
       </div><!--/hs-beacon-->
      
-      <footer>
+       <footer>
         <div class="pure-g">
-          <div class="pure-u-1-3 footer-item"><a class="footer-item-link" href="http://ecquire.com/" >Ecquire Home</a></div>
-          <div class="pure-u-1-3 footer-item"><a class="footer-item-link" href="http://dashboard.ecquire.com/admin">Dashboard</a></div>
-          <div class="pure-u-1-3 footer-item"><a class="footer-item-link" href="http://ecquire.com/blog">Blogs</a></div>
+          <div class="pure-u-1 pure-u-md-1-3 footer-item"><a class="footer-item-link" href="http://ecquire.com/" >Ecquire Home</a></div>
+          <div class="pure-u-1 pure-u-md-1-3 footer-item"><a class="footer-item-link" href="http://dashboard.ecquire.com/admin">Dashboard</a></div>
+          <div class="pure-u-1 pure-u-md-1-3 footer-item"><a class="footer-item-link" href="http://ecquire.com/blog">Blogs</a></div>
         </div>
       </footer>
 
     </div><!--/layout-->
 
+  <!--general ui for whole website-->
   <script src="js/ui.js"></script>
-  <script>!function(e,o,n){window.HSCW=o,window.HS=n,n.beacon=n.beacon||{};var t=n.beacon;t.userConfig={},t.readyQueue=[],t.config=function(e){this.userConfig=e},t.ready=function(e){this.readyQueue.push(e)},o.config={docs:{enabled:!1,baseUrl:""},contact:{enabled:!0,formId:"35faac7f-8025-11e6-91aa-0a5fecc78a4d"}};var r=e.getElementsByTagName("script")[0],c=e.createElement("script");c.type="text/javascript",c.async=!0,c.src="https://djtflbt20bdde.cloudfront.net/",r.parentNode.insertBefore(c,r)}(document,window.HSCW||{},window.HS||{});</script>
+  
+  <!--help scout beacon-->
+  <script src="js/helpScoutBeacon.js"></script>
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  
+  <!--smooth scroll-->
+  <script src="js/smoothScroll.js"></script>
   </body>
 </html>
